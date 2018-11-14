@@ -1,6 +1,6 @@
 describe("index.html", function() {
 
-    it("displays the correct Titanic info from JSON", () => {
+    it.only("displays the correct Titanic info from JSON", () => {
 
       expect(document.getElementById("title").innerHTML, "Title was not changed on page load").to.equal("Titanic")
       expect(document.getElementById("director").innerHTML, "Director was not changed on page load").to.equal("James Cameron")
